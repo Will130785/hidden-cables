@@ -438,6 +438,18 @@ section#subintro {
   height:1px;
 }
 
+#testimg1 {
+	width: 100%;
+}
+
+#testimg2 {
+	width: 100%;
+}
+
+#testimg3 {
+	width: 100%;
+}
+
 /* tagline */
 .tagline {
 	margin:30px 0 20px;
@@ -466,10 +478,6 @@ section#subintro {
 	padding:20px;
 }
 
-
-.tagline h2 {
-
-}
 /* latest works */
 /*==================== CAROUSEL =====================*/
 .carousel {position:relative;}
