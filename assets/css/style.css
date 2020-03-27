@@ -1833,6 +1833,10 @@ ul.portfolio-area li {
 		text-align:center;
 	}
 
+	.img-logo {
+		display: none !important;
+	}
+
 }
 
 @media only screen and (max-width: 670px) {
@@ -1844,4 +1848,10 @@ ul.portfolio-area li {
 		text-decoration: none;
 		text-shadow: none; */
 	  }
+
+
+}
+
+.pp_details {
+	display: none !important;
 }
