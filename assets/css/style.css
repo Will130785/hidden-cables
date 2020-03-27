@@ -1,9 +1,4 @@
-/*
-    Theme Name: Scaffold
-    Theme URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url('boxtile.css');
@@ -180,16 +175,17 @@ header .navbar .brand.logo {
 .hclogo {
 	width: 8rem;
 	height: 100%;
-	position: absolute;
+	position: relative;
 	bottom: .3rem;
 	
 }
 
 @media only screen and (max-width: 500px) {
 	.hclogo {
-		width: 6rem;
-		height: 75%;
+		min-width: 8rem;
+		height: 100%;
 		bottom: .6rem;
+		margin-right: 0 auto;
 	}
 }
 
@@ -210,6 +206,13 @@ header .navbar-inverse .navbar-inner li.active {
 .navbar-fixed-top .navbar-inner {
 	background-color: #001d2d;
 	position: relative;
+	
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-fixed-top .navbar-inner {
+		height: 80px;
+	}
 }
 
 header nav {
@@ -393,6 +396,13 @@ section#intro{
 	margin: 0 auto;
 	margin-top:80px;
 	padding: 40px 0 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	section#intro {
+		margin-top: 10px;
+		padding: 10px 0;
+	}
 }
 
 section#bottom {
@@ -1730,6 +1740,7 @@ img.alignright{
 		margin-right: 20px;
 	}
 
+
   section#subintro {
     padding-left: 20px;
     padding-right: 20px;
@@ -1822,4 +1833,15 @@ ul.portfolio-area li {
 		text-align:center;
 	}
 
+}
+
+@media only screen and (max-width: 670px) {
+	.navbar .nav > li > a {
+		/* float: none; */
+		font-size: 10px;
+		padding: 5px;
+		/* color: #777777;
+		text-decoration: none;
+		text-shadow: none; */
+	  }
 }

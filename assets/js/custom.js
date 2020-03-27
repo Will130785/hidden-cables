@@ -38,14 +38,14 @@ jQuery(document).ready(function($) {
   });
 
   // Create the dropdown base
-  $("<select />").appendTo("nav");
+  // $("<select />").appendTo("nav");
 
-  // Create default option "Go to..."
-  $("<option />", {
-    "selected": "selected",
-    "value": "",
-    "text": "Go to..."
-  }).appendTo("nav select");
+  // // Create default option "Go to..."
+  // $("<option />", {
+  //   "selected": "selected",
+  //   "value": "",
+  //   "text": "Go to..."
+  // }).appendTo("nav select");
 
   // Populate dropdown with menu items
   $("nav a").each(function() {
